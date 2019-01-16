@@ -17,7 +17,7 @@ public function getInfo(){
 }
 
 public function getInfoProduk(){
-	$str =" Novel : ". $this->geInfo() ." - {$this->JmlHalaman} Halaman.";
+	$str =" Novel : ". $this->getInfo() ." - {$this->JmlHalaman} Halaman.";
 	return $str;
 }
 }
